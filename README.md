@@ -2,6 +2,8 @@
 
 UnWasted is an innovative project that aims to stop wasting surplus food and deliver it quickly and efficiently to those in need. Millions of tons of food are wasted every year, while many people struggle with hunger. UnWasted set out to address these issues and use the world's food resources more sustainably.
 
+UnWasted works very similar to the YemekSepeti app.  People who have surplus products put their products in the advertisement, then people in need add the product to the cart from the advertisement page and get the product.
+
 ## Used Technologies
 
 React, Node.js , Boostrap
