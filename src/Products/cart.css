@@ -1,0 +1,133 @@
+.cart{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+article{
+    width: 60%;
+    margin: auto;
+}
+/* Sepet Genel */
+
+.cart_box img{
+    width: 60%;
+    height: 175px; /* % ile verirsem ayni hizada olmuyor*/
+}
+/* Sepetteki fotolar */
+
+.cart_img{
+    display: flex;
+    width: 35%;
+}
+/* Foto */
+
+.cart_img p {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 2%;
+}
+/* Urun ismi*/
+
+.cart_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    border-bottom: 2px solid #E89F71;
+    padding-bottom: 0.5%;
+}
+/* Urunler arasi cizgi */ 
+
+.cart_box div:nth-child(2) button{
+    padding: 5px 10px; /* % verince alt alta oluyor?? */
+    font-weight: bold;
+    margin-right: 5px; /* % verince alt alta oluyor?? */
+    border-color: black;
+    border-width: 2px;
+}
+/* "+-" butonlari */
+
+.cart_box div:nth-child(3) button{
+    padding: 5px 10px; /* Remove buton boyutu */
+    font-weight: bold;
+    font-size: large;
+    width: 150px; /* % verince height ile uyumsuz oluyor */
+    height: 40px; /* % olmuyor */
+    letter-spacing: 3px; /* Remove yazisi arasi bosluk uzunlugu */
+    border-color: black;
+    outline: none;
+    color: white;
+    background-color: #E89F71;
+    border-radius: 5px; /* Koseye % olmuyor */
+    cursor: pointer;
+}
+/* Remove butonu*/
+
+.cart_box div:nth-child(3) button:hover{
+    background-color: #AA4A30;
+}
+/* Remove butonu uzerine gelince gozuken renk*/
+
+.cart_box div:nth-child(3) span{
+    background-color: #D57149;
+    padding: 5px 10px;
+    border-radius: 15%;
+    margin-right: 10px;
+}
+/* Price color */
+
+.total{
+    display: flex;
+    justify-content: center;
+    padding: 8px 20px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 79%;
+    font-weight: bold;
+    font-size: x-large;
+    width: 250px; /* % verince height ile uyumsuz oluyor */
+    height: 50px; /* % olmuyor */
+    border-color: black;
+    color: white;
+    background-color: #E89F71;
+    border-radius: 5px; /* Koseye % olmuyor */
+    cursor: pointer;
+}
+/* Confirm order konumu */
+
+.total span:nth-child(1){
+    font-size: 200%;
+    color: #E89F71;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* Total para */
+
+.total span:nth-child(2){
+    font-size: 200%;
+    color: #E89F71;
+    font-weight: bold;
+}
+/* Total paranin kendisi */
+
+.readIngredients {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 25%;
+}
+
+.cartIngredient {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    align-items: left;
+    padding-right: 20%;
+}
+
+.empty{
+
+    text-align: center;
+    
+}

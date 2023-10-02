@@ -1,0 +1,42 @@
+.warning {
+  height: 4%;
+  width: 25%;
+  position: absolute;
+  right: 3%;
+  top: 8%;
+  background-color: red;
+  font-size: 1.1rem;
+  color: white;
+  font-family: cursive;
+  padding: 0.5%;
+  border-radius: 25px;
+  position: fixed;
+}
+
+.card1 {
+  width: 40%;
+
+  margin: 2rem;
+  background-color: brown;
+}
+
+.ripple1 {
+  width: 7vw;
+  height: 3.5vh;
+}
+/* Tekrar eklemeye calisinca cikan hata uyarisi */
+
+.generalBody {
+  width: 100vw;
+  height: calc(100vh - 56px);
+  overflow-y: scroll;
+}
+
+.bodyText {
+  color: white;
+}
+
+.companyText {
+  color: black;
+  font-weight: bold;
+}

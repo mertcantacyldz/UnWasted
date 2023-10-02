@@ -1,0 +1,48 @@
+.Addproduct {
+  height: 70vh;
+  width: 50vw;
+  background-color: antiquewhite;
+  border-radius: 5%;
+  position: center;
+}
+
+.formcss {
+  padding: 5%;
+}
+
+.formHeader {
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+.formHeaderText {
+  color: #4f261a;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-container > div {
+  flex: 0 0 33.33%;
+  padding: 10px;
+}
+
+.formHeader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #f3f3f3;
+}
+
+.formHeaderText {
+  font-size: 24px;
+  color: #4F261A;
+}
+
+.product-container {
+  padding: 20px;
+}
+

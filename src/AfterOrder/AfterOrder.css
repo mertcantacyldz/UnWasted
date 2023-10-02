@@ -1,0 +1,109 @@
+.body {
+  height: 100vh;
+}
+
+.fullbody {
+  width: 100vw;
+  height: calc(100vh - 56px);
+  align-items: center;
+}
+
+.innerBody {
+  width: 93vw;
+  height: 85vh;
+  background-color: #edcfa9;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.headText {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.headText-text {
+  font-weight: bold;
+  color: #aa4a30;
+  font-size: xx-large;
+}
+
+.iconSize {
+  width: 4vw;
+}
+
+.centerBody {
+  height: 55vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map {
+  width: 50vw;
+  height: 25vh;
+}
+
+.productImage {
+  width: 80vw;
+  height: 50vh;
+}
+
+.codeBox {
+  width: 50vw;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #e89f71;
+}
+
+.codeText {
+  font-weight: bold;
+  font-size: xxx-large;
+  color: #aa4a30;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centerText {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.timerContainer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.clockIcon {
+  width: 4vh;
+  margin-right: 0.5vw;
+}
+
+.footer-text {
+  font-size: x-large;
+  font-weight: 700;
+  color: #aa4a30;
+}
+
+.mapIcon {
+  width: 3vw;
+  height: 7vh;
+  color: #aa4a30;
+}
+
+.iconDiv {
+  justify-content: end;
+}
+
+.mapButton {
+  background-color: transparent;
+}

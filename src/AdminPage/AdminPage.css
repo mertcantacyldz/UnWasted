@@ -1,0 +1,23 @@
+.body {
+  height: 100vh;
+}
+
+.fullbody {
+  width: 100vw;
+  height: calc(100vh - 56px);
+  align-items: center;
+  justify-content: center;
+}
+
+.tableContainer {
+  width: 90vw;
+  height: 80vh;
+}
+
+.table {
+  background-color: #edcfa9;
+}
+
+.theadText {
+  color: white;
+}

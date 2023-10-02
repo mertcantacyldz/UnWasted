@@ -1,0 +1,20 @@
+.allBody {
+  width: 100vw;
+  height: calc(100vh - 56px);
+  justify-content: center;
+  align-items: center;
+}
+
+.bodyitems {
+  width: 70vw;
+  height: 85vh;
+  padding-top: 3vh;
+}
+
+.rightBody {
+  width: 20vw;
+  height: 70vh;
+  background-color: antiquewhite;
+  padding-top: 2%;
+  border-radius: 20px;
+}

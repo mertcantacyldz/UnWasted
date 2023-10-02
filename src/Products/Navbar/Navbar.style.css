@@ -1,0 +1,48 @@
+* {
+  font-family: "Alumni Sans", sans-serif;
+}
+
+.logo {
+  width: 60%;
+}
+
+.search-bar {
+  border-radius: 20px;
+}
+
+.nav-text {
+  color: #edcfa9;
+  font-size: 25px;
+}
+
+.stack {
+  background-color: white;
+}
+
+.active {
+  color: #edcfa9 !important;
+}
+
+.button {
+  color: #edcfa9;
+}
+.cart{
+  cursor: pointer;
+}
+/* ?? */
+
+.cart span:nth-child(1){
+  font-size: 2.3rem;
+  color: white;
+}
+/* Sepet ikonu */
+
+.cart span:nth-child(2){
+  padding: 0 5px;
+  background-color: #AA4A30;
+  color: white;
+  font-weight: bold;
+  border-radius: 20%;
+  position: relative;
+  top: -15px;
+}
