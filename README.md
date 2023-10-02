@@ -6,7 +6,7 @@ UnWasted works very similar to the YemekSepeti app.  People who have surplus pro
 
 
 ## Screen Shoots
-
+sss
 ## Used Technologies
 
 React, Node.js , Boostrap
