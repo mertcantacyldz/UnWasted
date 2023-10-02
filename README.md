@@ -6,7 +6,7 @@ UnWasted works very similar to the YemekSepeti app.  People who have surplus pro
 
 
 ## Screen Shoots
-sss
+![https://github.com/mertcantacyldz/UnWasted/blob/main/public/SS/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202023-10-03%20024614.png]
 ## Used Technologies
 
 React, Node.js , Boostrap
