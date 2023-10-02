@@ -1,18 +1,20 @@
-# Getting Started with Create React App
+# UnWasted: A Relief Platform to Reduce Food Waste
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+UnWasted is an innovative project that aims to stop wasting surplus food and deliver it quickly and efficiently to those in need. Millions of tons of food are wasted every year, while many people struggle with hunger. UnWasted set out to address these issues and use the world's food resources more sustainably.
 
-## Available Scripts
+UnWasted works very similar to the YemekSepeti app.  People who have surplus products put their products in the advertisement, then people in need add the product to the cart from the advertisement page and get the product.
 
-In the project directory, you can run:
+## Used Technologies
+
+React, Node.js , Boostrap
+The project is basically written in React and Node.js with some npm packages added. Boostrap was used for style.
+In the front-end part, props, component, axios(get,post,delete,put), hooks etc. features are used.
 
 ### `npm start`
+1- npm i
+2- npm run dev
+3- npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
